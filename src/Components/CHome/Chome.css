@@ -1,0 +1,82 @@
+.chome {
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.chome-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chome-cname {
+    font-size: 18px;
+    color: #F77737;
+    font-weight: 700;
+}
+
+.chome-logout {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.l-button {
+    padding: 6px 13px;
+}
+
+.chome-main {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chome-main-head {
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #F77737;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .chome-cname {
+        font-size: 16px;
+    }
+
+    .l-button {
+        font-size: 13px;
+    }
+
+    .chome-main {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .chome-header {
+        flex-direction: column;
+    }
+
+    .chome-cname {
+        font-size: 16px;
+    }
+
+    .l-button {
+        font-size: 13px;
+    }
+
+    .chome-logout {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0.8rem;
+    }
+
+    .chome-main {
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+}

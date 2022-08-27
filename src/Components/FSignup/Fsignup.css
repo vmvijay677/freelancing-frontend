@@ -1,0 +1,57 @@
+.fsignup {
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+.fl-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fl-cimage {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.fl-head {
+    color: #F77737;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+
+.fl-input {
+    width: 370px;
+    height: 30px;
+    padding: 6px 12px;
+    outline: none;
+    margin-top: 6px;
+    margin-bottom: 25px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px
+}
+
+.fl-buttons {
+    margin-top: 5px;
+    position: relative;
+    left: 40%;
+    margin-bottom: 25px;
+}
+
+.fl-footer {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.fl-footer>:nth-child(2) {
+    font-weight: 700;
+    color: #F77737;
+    cursor: pointer;
+}

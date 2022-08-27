@@ -1,0 +1,97 @@
+.fhome {
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.fhome-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fhome-logout {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fhome-fname {
+    font-size: 18px;
+    color: #F77737;
+    font-weight: 700;
+}
+
+.l-button {
+    padding: 6px 13px;
+}
+
+.fhome-main {
+    margin-top: 3rem;
+}
+
+.fhome-main-head {
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #F77737;
+    font-weight: 700;
+}
+
+.f-projects-mini {
+    width: 550px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 2rem;
+    box-shadow: 5px 4px 12px 2px lightgray;
+}
+
+.f-projects-app {
+    margin-top: 1rem;
+    position: absolute;
+    left: 30%;
+}
+
+.apply-button {
+    padding: 8px 16px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .fhome-fname {
+        font-size: 16px;
+    }
+
+    .l-button {
+        font-size: 13px;
+    }
+
+    .f-projects-app {
+        left: 12%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .fhome-header {
+        flex-direction: column;
+    }
+
+    .fhome-logout {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0.8rem;
+    }
+
+    .f-projects-mini {
+        width: 350px;
+    }
+
+    .f-projects-app {
+        left: 9%;
+    }
+}

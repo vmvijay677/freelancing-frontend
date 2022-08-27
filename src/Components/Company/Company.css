@@ -1,0 +1,45 @@
+.h-company {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.h-cname {
+    font-size: 22px;
+    color: #F77737;
+    font-weight: bold;
+}
+
+.h-image {
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .h-cname {
+        font-size: 18px;
+    }
+
+    .h-image {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .h-company {
+        justify-content: center;
+        margin-top: 1.2rem;
+    }
+
+    .h-cname {
+        font-size: 21px;
+    }
+
+    .h-image {
+        width: 42px;
+        height: 42px;
+    }
+}

@@ -1,0 +1,57 @@
+.csignup {
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+.cl-contents {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cl-head {
+    color: #F77737;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.cl-input {
+    width: 370px;
+    height: 30px;
+    padding: 6px 12px;
+    outline: none;
+    margin-top: 6px;
+    margin-bottom: 25px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px
+}
+
+.cl-buttons {
+    margin-top: 5px;
+    position: relative;
+    left: 40%;
+    margin-bottom: 25px;
+}
+
+.cl-footer {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.cl-footer>:nth-child(2) {
+    font-weight: 700;
+    color: #F77737;
+    cursor: pointer;
+}
+
+.cl-cimage {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}

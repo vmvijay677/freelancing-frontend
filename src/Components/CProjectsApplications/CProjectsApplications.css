@@ -1,0 +1,33 @@
+.c-projects-app {
+    margin-top: 2rem;
+}
+
+.c-projects-mini {
+    width: 550px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 2rem;
+    box-shadow: 5px 4px 12px 2px lightgray;
+}
+
+.c-projects-mini>p {
+    margin-bottom: 7px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .c-projects-app {
+        margin-top: 1.5rem;
+    }
+
+    .c-projects-mini {
+        position: absolute;
+        left: 12%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .c-projects-mini {
+        width: 385px;
+    }
+}
